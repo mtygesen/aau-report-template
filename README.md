@@ -1,2 +1,2 @@
-# aau-report-template
-Report template for aau
+# AAU Rport Template
+Report Template for AAU in LaTeX
