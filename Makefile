@@ -12,7 +12,7 @@ MAIN = master
 
 OTHER = *~ *.aux *.dvi *.toc *.blg *.gz *.out *.thm *.ps *.idx *.ilg *.ind *.run.xml *blx.bib *.tdo *.bbl
 CLEAN = rm -f $(OTHER)
-ARGS = -synctex=1 -interaction=nonstopmode
+ARGS = -synctex=1 -interaction=nonstopmode -file-line-error
 
 # Compile pdf
 pdflatex: $(MAIN).tex
